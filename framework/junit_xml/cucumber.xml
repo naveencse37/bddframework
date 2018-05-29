@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.693483">
+    <testcase classname="User is one homepage" name="User is one homepage and can able to see all menu items" time="12.693483">
+        <system-out>
+            <![CDATA[Given user opens browser....................................................passed
+And user validates homepage title...........................................passed
+And close the browser.......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

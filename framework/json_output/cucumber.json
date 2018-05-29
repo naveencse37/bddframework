@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is one homepage and can able to see all menu items",
+        "description": "",
+        "id": "user-is-one-homepage;user-is-one-homepage-and-can-able-to-see-all-menu-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12032056311,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8356976,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validates homepage title",
+            "match": {
+              "location": "HomePageSteps.user_validates_homepage_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 653069467,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "HomePageSteps.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User is one homepage",
+    "description": "",
+    "id": "user-is-one-homepage",
+    "keyword": "Feature",
+    "uri": "C:/Users/niksa/eclipse-workspace/framework/src/main/java/com/qa/features/homepage.feature"
+  }
+]
