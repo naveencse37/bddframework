@@ -1,8 +1,12 @@
-Feature: Registration Page
+Feature: Registration Page 
 
-Scenario: user enters valid details in the registration form to register
+@Smoke
+Scenario: user enters valid details in the registration form to register 
 
-Given user opens a browser
-And user validates homepage title
-And user clicks registration link
-Then user inputs firstname
+	Given user opens browser 
+	And user validates homepage title
+	And user clicks registration link
+	And user validates registration page title
+	And user fills form
+#	And close the browser
+	
